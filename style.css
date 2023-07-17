@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#topo{
+    background-color: #303030;
+    height: 475px;
+}
+
+#textohead{
+    color: white;
+    padding: 206px 354px 197px 62px;
+    font-size: 150%;
+}
+
+#menuexperiencia{
+    background-color: #F9F9F9;
+    height: 230px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.informacao{
+    padding-left: 170px;
+    padding-top: 95px;
+}
+
+#textoimg{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 82px;
+    padding-left: 200px;
+}
+
+.textodaimg{
+    padding-top: 170px;
+
+}
+
+.imgarquitetura{
+    padding-right: 52px;
+}
+
+#formulario{
+    background-color: #303030;
+    color: white;
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#tituloformulario{
+    font-size: 25px;
+    padding-top: 90px;
+    margin: 40px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin: 15px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#cc7d1c;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.418);
+}
+
